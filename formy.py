@@ -28,7 +28,7 @@ class MainWindow(qtw.QWidget):
         self.show()
 
         def press_it():
-            label_1.setText(f"{f_name.text()} ou clicked the button")
+            label_1.setText(f"{f_name.text()} you clicked the button")
 
 
 app = qtw.QApplication([])
